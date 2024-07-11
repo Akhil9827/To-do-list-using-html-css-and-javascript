@@ -1,0 +1,51 @@
+body
+ {
+    background-color: rgb(137, 92, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:37vh;
+    margin:0px;
+    padding-bottom:px;
+    font-family: Arial, sans-serif;
+
+
+}
+.completed span::after
+ {
+    content: ' ✓';
+    color: green;
+    font-weight: bold;
+}
+
+.container
+ {
+    background-color: rgb(126, 192, 132);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+}
+
+.habit-list 
+{
+    list-style: none;
+    padding: 0;
+}
+
+.habit-item 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.habit-item button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
